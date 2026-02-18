@@ -1,0 +1,107 @@
+:root {
+  --color-cat: #000000;
+  --color-background: #3F3F3F;
+  --color-text: #24273A;
+  --color-field: #FBFBFB;
+  --color-url: #E2005E;
+  --color-outer-border: #24273A;
+  --color-inner-border: #074f8C;
+  --color-main-header-foreground: #24273A;
+  --color-main-subheader-foreground: #074f8C;
+  --color-section-header-background: #E2005E;
+  --color-section-header-foreground: #FFFFFF;
+  --color-bullet: #E2005E;
+  --color-talk-header-foreground: #074f8C;
+}
+
+body {
+    font-size:16px;
+    background-color:var(--color-background);
+    color:var(--color-text);
+}
+
+.field {
+  width:840px;
+  margin:0 auto;
+  margin-bottom:6px;
+  padding:12px;
+  border:3px solid var(--color-strong-border);
+  background-color:var(--color-field);
+}
+
+.cat {
+  float:right;
+  height:auto;
+  font-size:18px;
+  color:var(--color-cat);
+}
+
+h1 {
+    font-size:36px;
+    font-weight:bold;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    color:var(--color-main-header-foreground);
+}
+
+h2 {
+    font-size:24px;
+    font-weight:bold;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    color:var(--color-main-subheader-foreground);
+}
+
+h3 {
+    font-size:18px;
+    font-weight:bold;
+    background-color:var(--color-section-header-background);
+    color:var(--color-section-header-foreground);
+    border-style:none;
+    width:99%;
+    padding-top:8px;
+    padding-left:1%;
+    padding-bottom:8px;
+    margin-top:20px;
+    margin-bottom:15px;
+    
+}
+
+h4 {
+    font-size:18px;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+    color:var(--color-talk-header-foreground);
+}
+
+ul {
+  list-style-type:'▶  ';
+}
+
+li::marker {
+  color:var(--color-bullet);
+}
+
+a {
+    text-decoration:none;
+    color:var(--color-url);
+}
+
+a:visited {
+    text-decoration:none;
+    color:var(--color-url);
+}
+
+hr {
+    background-color:var(--color-inner-border);
+    border-style:none;
+    width:100%;
+    margin-left:0px;
+    margin-bottom:15px;
+    height:3px;
+}
