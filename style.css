@@ -94,6 +94,11 @@ a {
     color:var(--color-url);
 }
 
+a:hover {
+    text-decoration:underline;
+    color:var(--color-url);
+}
+
 a:visited {
     text-decoration:none;
     color:var(--color-url);
