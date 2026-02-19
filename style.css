@@ -81,7 +81,8 @@ h4 {
 }
 
 ul {
-  list-style-type:'▶  ';
+  list-style-type:'ᓚᘏᗢ  ';
+  padding-inline-start: 54px;
 }
 
 li::marker {
